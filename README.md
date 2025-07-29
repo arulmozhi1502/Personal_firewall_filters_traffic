@@ -11,7 +11,7 @@ This project implements a lightweight personal firewall that monitors live netwo
 - Simple GUI to Start/Stop the firewall
 - Easy customization via `rules.json`
 
-## 🛠Tools & Libraries
+## Tools & Libraries
 - Python 3
 - Scapy
 - Tkinter

@@ -39,11 +39,12 @@ This project implements a lightweight personal firewall that monitors live netwo
 ```rules.json file
 {
   "block": {
-    "ip": ["192.168.1.1"],
-    "port": [80],
+    "ip": ["192.168.1.100", "10.0.0.5"],
+    "port": [80, 443],
     "protocol": ["ICMP"]
   }
 }
+
 ```
 ### 5. View logs to see all blocked packets
 Saves in log.json file
